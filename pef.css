@@ -1,0 +1,327 @@
+body{
+	background-color: hsl(30, 38%, 92%, 1.0);
+	color:hsl(228, 12%, 48%, 1.0);
+	font-family: Montserrat;
+}
+
+.hatto{
+	display: none;
+	padding-top:0px;
+}
+
+.ctn{
+	
+	width: 100%;
+	margin:80px auto 80px auto;
+	
+	
+}
+
+.imgctn{
+	margin:-25px auto 100px auto;
+
+}
+
+
+.yperf{
+	width:25%;
+	display: inline;
+	position: absolute;
+	left: 340px;
+	border-radius: 20px 0 0 20px;
+	
+}
+
+.xperf{
+	display: none;
+
+}
+
+
+.info-ctn{
+	max-width: 100%;
+	height: 512px;
+	background-color: hsl(0, 0%, 100%, 1.0);
+	position: absolute;
+
+	left: 683px;
+	border-radius: 0 20px 20px 0;
+	display:inline;
+	margin:0px auto 80px auto;
+
+}
+
+
+.info{
+	display:inline;
+}
+
+.prf-Hd{
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 500;
+	letter-spacing: 4px;
+	margin:40px 0 0 40px;
+
+}
+
+.G-Hd{
+	color: hsl(212, 21%, 14%, 1.0);
+	font-family: 'Fraunces';
+	margin:20px 40px 0 40px;
+	width: 180px;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 30px;
+
+}
+
+
+.frl-txt{
+	width: 240px;
+	margin:20px 60px 20px 40px;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 25px;
+	
+}
+
+.prc-txt{
+	margin:75px 0 0 40px;
+	display:inline;
+}
+
+.prc1{
+	color: hsl(158, 36%, 37%, 1.0);
+	font-family: 'Fraunces';
+	font-size: 30px;
+	font-weight: 700;
+	display:inline;
+	margin:75px 0 0 0px;
+
+}
+
+.prc2{
+	
+	display:inline;
+	font-size: 14px;
+	font-weight: 500;
+	text-decoration: line-through;
+	position: absolute;
+	top: 303px;
+	left:170px;
+
+}
+
+.btn{
+	background-color:hsl(158, 36%, 37%, 1.0);
+	color: hsl(0, 0%, 100%, 1.0);
+	margin:30px 40px 82px 40px;
+	padding: 16px;
+	border-radius: 10px;
+}
+
+.bimg{
+	position: relative;
+	left:50px;
+}
+
+
+.b-txt{
+	color: hsl(0, 0%, 100%, 1.0);
+	display:inline;
+	font-size: 14px;
+	font-weight: 500;
+	position: relative;
+	left: 55px;
+	top: -3px;
+
+}
+
+.btn:hover{
+	cursor: pointer;
+	background-color:hsl(158, 36%, 23%, 1.0);
+
+}
+
+/*----------------------------------------------------------------------------------for mobile*/
+@media screen and (max-width:375px){
+
+.hatto{
+	padding-top:10px;
+}
+
+
+	.ctn{
+	
+	width: 96%;
+	margin:50px auto 430px auto;
+	
+	
+}
+
+
+	.yperf{
+	display: none;
+}
+
+	.xperf{
+	display: block;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	width: 100%;
+	margin:0 auto 0 auto;
+}
+
+.info-ctn{
+	width: 92%;
+	height: 400px;
+	margin:0 auto 80px auto;
+	background-color: hsl(0, 0%, 100%, 1.0);
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	display:block;
+	position: absolute;
+	top: 267px;
+	left: 15px;
+	
+
+}
+.prf-Hd{
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 500;
+	letter-spacing: 4px;
+	margin:20px 0 0 20px;
+
+}
+
+.G-Hd{
+	color: hsl(212, 21%, 14%, 1.0);
+	font-family: 'Fraunces';
+	width: 250px;
+	margin:12px 40px 0 20px;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 30px;
+
+}
+
+.frl-txt{
+	width: 290px;
+	margin:18px 60px 20px 20px;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 25px;
+	
+}
+
+.prc-txt{
+	margin:70px 0 0 20px;
+	display:inline;
+}
+
+.prc1{
+	color: hsl(158, 36%, 37%, 1.0);
+	font-family: 'Fraunces';
+	font-size: 30px;
+	font-weight: 700;
+	display:inline;
+	margin:70px 0 0 0px;
+
+}
+
+.prc2{
+	
+	display:inline;
+	font-size: 14px;
+	font-weight: 500;
+	text-decoration: line-through;
+	position: absolute;
+	top: 242px;
+	left:138px;
+
+}
+
+.btn{
+	background-color:hsl(158, 36%, 37%, 1.0);
+	color: hsl(0, 0%, 100%, 1.0);
+	margin:30px 40px 30px 20px;
+	padding: 16px;
+	width: 78%;
+	border-radius: 10px;
+}
+
+.bimg{
+	position: relative;
+	left:70px;
+}
+
+
+.b-txt{
+	color: hsl(0, 0%, 100%, 1.0);
+	display:inline;
+	font-size: 14px;
+	font-weight: 500;
+	position: relative;
+	left: 78px;
+	top: -3px;
+
+}
+
+}
+
+/*----------------------------------------------------------------------------------for mobile*/
+@media screen and (min-width:1440px){
+
+
+.btn{
+	background-color:hsl(158, 36%, 37%, 1.0);
+	color: hsl(0, 0%, 100%, 1.0);
+	margin:30px 40px 56px 40px;
+	padding: 16px;
+	border-radius: 10px;
+}
+
+
+.ctn{
+	
+	width: 90%;
+	margin:80px auto 80px auto;
+	position: absolute;
+	
+	
+}
+
+.yperf{
+	width:25%;
+	display: inline;
+	position: absolute;
+	left: 365px;
+	margin-bottom: 800px;
+	border-radius: 20px 0 0 20px;
+	
+}
+
+
+.info-ctn{
+	max-width: 100%;
+	background-color: hsl(0, 0%, 100%, 1.0);
+	position: absolute;
+	height: 486px;
+	top:-25px ;
+	left: 690px;
+	border-radius: 0 20px 20px 0;
+	display:inline;
+	margin:0px auto 80px auto;
+
+}
+
+.hatto{
+	display: block;
+	padding-top:590px;
+}
+
+}
